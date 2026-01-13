@@ -417,7 +417,15 @@ header {
   color: var(--color-text-light);
   margin: 0;
 }
+.projects-section {
+  padding: 80px 24px;
+  background-color: var(--color-surface);
+}
 
+.projects-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 .cta-section {
   padding: 80px 24px;
@@ -553,16 +561,6 @@ header {
   border-color: rgba(201, 209, 217, 0.12);
 }
 
-.pinkgoose-section{
-  padding: 80px 24px;
-  width: 50%;
-  height: 50%;
-  background-color: var(--color-surface);
-  display: flex;
-  justify-content: center;
-}
-
-
 @media (max-width: 1024px) {
   .education-content {
     grid-template-columns: 1fr;
@@ -597,7 +595,6 @@ header {
     font-size: 36px;
   }
 
-  .about-section,
   .skills-section,
   .cta-section {
     padding: 60px 20px;
