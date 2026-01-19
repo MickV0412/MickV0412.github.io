@@ -12,20 +12,12 @@ body {
 
 :root {
   --color-background: #0D1117;
-  /* Main background */
   --color-surface: #161B22;
-  /* Header / card background */
   --color-text-light: #C9D1D9;
-  /* Main text */
   --color-text-dark: #6E7681;
-  /* Secondary text */
-
   --color-primary-accent: #2C88FF;
-  /* Main accent / buttons */
   --color-secondary-accent: #3FB8FF;
-  /* Hover / highlights */
   --color-button-hover: #1E79E8;
-  /* Button hover */
   --color-shadow-light: rgba(44, 136, 255, 0.3);
 }
 
@@ -48,7 +40,6 @@ header {
   top: 0;
   width: 100%;
   background-color: var(--color-surface);
-  -webkit-backdrop-filter: blur(6px) saturate(160%);
   backdrop-filter: blur(6px) saturate(160%);
   border-bottom: 1px solid rgba(201, 209, 217, 0.1);
   z-index: 100;
@@ -82,29 +73,6 @@ header {
   justify-self: center;
   gap: 32px;
   font-size: 14px;
-}
-
-.cursor {
-  display: inline-block;
-  width: 2px;
-  height: 0.9em;
-  background-color: var(--color-primary-accent);
-  margin-left: 4px;
-  animation: blink 1s infinite;
-  vertical-align: middle;
-}
-
-@keyframes blink {
-
-  0%,
-  49% {
-    opacity: 1;
-  }
-
-  50%,
-  100% {
-    opacity: 0;
-  }
 }
 
 .nav-text {
@@ -216,7 +184,6 @@ header {
   text-transform: uppercase;
   color: var(--color-text-light);
 }
-
 
 .page-title {
   text-align: center;
@@ -639,7 +606,6 @@ header {
 }
 
 @media (max-width: 480px) {
-
   .education-item,
   .goal-box,
   .skill-category,
